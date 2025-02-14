@@ -34,6 +34,14 @@ main{
 .port-link{
     padding: 5px 0px;
     margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.port-link a{
+    text-decoration: none;
+    
 }
 
 .title-over{
