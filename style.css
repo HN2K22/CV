@@ -1,0 +1,304 @@
+*{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{ 
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+main{
+    background-color: white;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px;
+    width: 60%;
+    border: 1px solid black;
+}
+
+.port-link{
+    padding: 5px 0px;
+    margin-left: 10px;
+}
+
+.title-over{
+    display: flex;
+    align-items: center;
+}
+.title-edu{
+    font-weight: 800;
+}
+.edu-year{
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.edu-cont .grade{
+ float: right;
+}
+.j-role{
+    width: 20%;
+    background-color:#929ca4 ;
+    color: #ffffff;
+    padding: 10px 0px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.title-sum{
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+
+.title-over hr {
+    height: 1px;
+    width: 100%;
+  }
+
+.intro-section{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.intro-section hr{
+    width: 100%;
+}
+
+.title-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title-skill{
+    margin-top: 30px;
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+
+.title-exp{
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+}
+
+.contact-detail{
+    width: 21%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-detail p{
+    display: flex;
+    justify-content: end;
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+
+.summary{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.summary p{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+    
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.experience .exp{
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.edu{
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hobbies span{
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.portfolio .port{
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.project span{
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+.location{
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.location img{
+    width: 1rem;
+}
+
+.language .title-lang{
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+.linkedin{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: blue;
+}
+
+.linkedin img{
+    width: 1rem;
+}
+
+.phone img{
+    width: 0.95rem;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.8rem;
+}
+
+
+.gmail{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.8rem;
+}
+
+.gmail img{
+    width: 0.95rem;
+}
+
+.dob img{
+    width: 1rem;
+}
+
+.skill-list{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr );
+  grid-template-rows: 2;
+  grid-gap: 10px;
+  padding: 20px; 
+}
+
+.skill-list li::marker{
+    color: #acaaaa;
+}
+.comp-name{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.list-lang{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    width: 90%;
+    padding: 20px;
+    gap: 20px;
+}
+
+.list-lang li{
+    font-weight: 800;
+}
+
+.list-lang span{
+    font-weight: 500;
+}
+
+.list-contact{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-end;
+}
+
+.list-contact > li{
+    list-style: none;
+}
+
+.list-exp{
+    padding: 20px;
+    
+}
+
+.list-exp li{
+    margin-bottom:20px ;
+}
+
+.list-edu{
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list-hob{
+    padding: 20px;
+}
