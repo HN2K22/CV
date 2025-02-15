@@ -11,7 +11,7 @@
 body{ 
     display: flex;
     justify-content: center;
-    background-color: white;
+    background-color: rgb(236, 236, 236);
 }
 
 h1{
@@ -310,4 +310,192 @@ main{
 
 .list-hob{
     padding: 20px;
+}
+
+@media (max-width:1450px) {
+    main{
+        background-color: white;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+        padding: 10px;
+        width: 95%;
+        border: 1px solid black;
+    }
+
+    h1{
+        font-size: 2.1rem;
+    }
+
+    .j-role{
+        width:30%;
+    }
+
+    .intro-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contact-detail{
+        width:90%;
+        margin-bottom: 20px;
+    }
+
+    .contact-detail p{
+        font-size: 0.9rem;
+        justify-content: start;
+    }
+
+    .list-contact{
+        display: flex;
+        align-items: start;
+        font-size: 0.8rem;
+    }
+
+    .list-contact > li{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .gmail{
+        flex-direction: inherit;
+    }
+
+    .linkedin{
+        flex-direction: inherit;
+        gap: 10px;
+    }
+
+    .location{
+        display: flex;
+        gap: 10px;
+    }
+
+    .dob{
+        display: flex;
+        gap: 10px;
+    }
+
+    .summary p{
+        font-weight: 600;
+    }
+
+    .skill-list li{
+        font-size: 0.8rem;
+        font-weight: 800;
+    }
+
+
+    .list-edu {
+        padding: 0px;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .title-edu{
+        font-size: 0.8rem;
+    }
+
+    .edu ,.title-sum,.title-skill,.title-info{
+        font-size: 0.9rem;
+    }
+
+    .language .title-lang{
+        font-size: 0.9rem;
+    }
+
+    .edu-year{
+        font-size: 0.8rem;
+        font-weight: 800;
+    }
+
+    .edu-inst{
+        font-size: 0.65rem;
+        font-weight: 700;
+    }
+
+    .grade{
+        font-size: 0.8rem;
+        margin-top: 3px;
+        font-weight: bold;
+    }
+
+    .experience .exp {
+        font-weight: 800;
+        font-size: 0.9rem;
+    }
+
+    .title-exp .year-exp{
+        font-weight: 800;
+        font-size: 0.9rem;
+    }
+
+    .comp-name{
+        font-size: 0.8rem;
+        font-weight: 900;
+    }
+
+    .list-exp{
+        font-size: 0.9rem;
+        font-weight: 700;
+    }
+
+    .list-hob{
+    padding:  0 12px;
+    font-size: 0.7rem;
+    font-weight: 800;
+    }
+
+    .list-hob li{
+        padding: 5px 0px;
+    }
+
+    .list-lang .lang-name{
+        font-size: 0.9rem;
+    }
+
+    .lang-name span{
+        font-size: 0.8rem;
+    }
+
+    .portfolio .port{
+        font-size: 0.9rem;
+    }
+    .port-link{
+        margin-left: 6px;
+    }
+
+    .port-link span,a{
+        font-size: 0.8rem;
+        font-weight: 800;
+    }
+
+    .hobbies span{
+        font-size: 0.9rem;
+    }
+
+    .project span{
+        font-size: 0.9rem;
+    };
+
+    .project p{
+        font-size: 0.8rem;
+        margin-left: 3px;
+        font-weight: 800;
+    }
+}
+
+@media (max-width:600px) {
+    .experience .exp {
+        font-weight: 800;
+        font-size: 0.9rem;
+        margin: 0 2px 0 0;
+    }
+    .j-role{
+        width:90%;
+    }
 }
