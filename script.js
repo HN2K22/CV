@@ -2,6 +2,8 @@ const linkedin = document.querySelector(".linkedin");
 const gmail = document.querySelector(".gmail");
 const github = document.querySelector(".github");
 const cv = document.querySelector(".cv");
+const netflix = document.querySelector(".netflix");
+const netflixPage = document.querySelector(".netflix-page");
 
 const linkArray = [
   {
@@ -19,6 +21,14 @@ const linkArray = [
   {
     button: cv,
     link: "https://hn2k22.github.io/CV/",
+  },
+  {
+    button: netflix,
+    link: "https://github.com/HN2K22/Netflix-OTT",
+  },
+  {
+    button: netflixPage,
+    link: "https://hn2k22.github.io/Netflix-OTT/",
   },
 ];
 
